@@ -14,7 +14,7 @@ Il suffit de changer l'attribut 'src' des balises '<\script>' des pages html et 
 
 #Version live
 
-Disponible bientôt
+Disponible sur nathanael-gimenez.com
 
 #Licence
 
