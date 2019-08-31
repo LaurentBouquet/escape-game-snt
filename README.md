@@ -1,4 +1,4 @@
-#Escape Game SNT
+# Escape Game SNT
 
 Ce site est un escape game prévu pour 45 minutes pour une introduction à la nouvelle matière SNT en Seconde.
 
@@ -14,7 +14,7 @@ Il suffit de changer l'attribut 'src' des balises '<\script>' des pages html et 
 
 #Version live
 
-Disponible sur nathanael-gimenez.com
+Disponible sur http://escape-game-snt.ga
 
 #Licence
 
