@@ -1,0 +1,18 @@
+/*element principal en relatif pour permettre aux elements absolus d'etre positionnes*/
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: 600;
+    font-family: 'Josefin Sans';
+    background-image: url("../assets/background_sortie.jpg")
+}
+
+.center {
+    margin-left:25%;
+    margin-top: 15%;
+    width: 50%;
+    height: 80%;
+}
