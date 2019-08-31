@@ -25,8 +25,6 @@ Vous pouvez l'utiliser, le distribuer, le modifier librement, à condition que c
 
 Le code est en v0.1, pas du tout propre (beaucoup de duplications en js et css)
 
-Les images ne sont pas optimisées pour le web pour le moment
-
 Aucun processus d'automatisation du build (minification, obfuscation, ...) n'a été mis en place pour l'instant
 
 L'accessibilité n'a pas encore été travaillée
