@@ -10,7 +10,7 @@ Vous pouvez prendre ce code tel quel et le mettre sur un serveur web en ligne, o
 
 Je vous conseille d'obfusquer et de minifier les fichiers JS présentés, pour éviter que des élèves un peu plus initiés que les autres aillent y chercher des réponses. 
 
-Il suffit de changer l'attribut 'src' des balises '<\script>' des pages html et de mettre les versions obfusquées ('*_obs') des fichiers JS.
+Il suffit de changer l'attribut 'src' des balises '<\script>' des pages html et de mettre les versions obfusquées ('*_obs') des fichiers JS. Ce n'est pas la version par défaut, étant une copie de travail et non de production.
 
 # Version live
 
