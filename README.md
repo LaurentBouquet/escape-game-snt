@@ -20,3 +20,9 @@ Disponible [ici](http://escape-game-snt.ga)
 
 Ce programme est sous [licence GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 Vous pouvez l'utiliser, le distribuer, le modifier librement, à condition que ce que vous produisiez à partir de ce programme soit aussi sous cette licence.
+
+# Améliorations à venir
+
+Le code est en v0.1, pas du tout propre (beaucoup de duplications en js et css)
+
+Les images ne sont pas optimisées pour le web pour le moment
