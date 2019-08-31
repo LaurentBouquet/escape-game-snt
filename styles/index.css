@@ -1,0 +1,198 @@
+/*element principal en relatif pour permettre aux elements absolus d'etre positionnes*/
+body {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #d9b682;
+    min-width: 1860px;
+    max-width: 1860px;
+    min-height: 926px;
+    max-height: 926px;
+    color: white;
+    font-weight: 600;
+}
+
+/*on utilise un element image pour le fond, sinon il serait dependant de la taille d'ecran*/
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 1860px;
+    height: 926px;
+    margin: 0;
+    padding: 0;
+}
+
+/*element d'attribution de l'image*/
+#attribution {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+/*Les differents elements positionnes en absolu*/
+#dns_explain {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 440px;
+    left: 590px;
+    display: block;
+    transform: skew(-13deg);
+}
+
+#secret_door {
+    position: absolute;
+    right: 0px;
+    bottom: 130px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 0;
+}
+
+#secret_door:hover {
+    font-size: 1em;
+}
+
+#coffre {
+    position: absolute;
+    right: 230px;
+    bottom: 270px;
+    width: 250px;
+    height: 100px;
+    transform: skew(-20deg, 5deg);
+}
+
+#map {
+    position: absolute;
+    top: 350px;
+    right: 660px;    
+    width: 230px;    
+    height: 160px;    
+    transform: skew(2deg,1deg);
+}
+
+#paper1 {
+    position: absolute;
+    bottom: 100px;
+    left: 715px;
+    width: 60px;
+    height: 45px;
+    transform: skew(-69deg,16deg);
+}
+
+#paper2 {
+    position: absolute;
+    bottom: 160px;
+    right: 770px;
+    width: 60px;
+    height: 30px;
+    transform: skew(-69deg,16deg);
+}
+
+#picture1 {
+    position: absolute;
+    left: 60px;
+    top: 405px;
+    height: 70px;
+    width: 130px;
+}
+
+#picture2 {
+    position: absolute;
+    top: 210px;
+    right: 740px;
+    height: 90px;
+    width: 80px;
+    transform: skew(2deg,-2deg);
+}
+
+#desk {
+    position: absolute;
+    bottom: 240px;
+    left: 750px;
+    height: 100px;
+    width: 90px;
+    transform: skew(-3deg,6deg);
+}
+
+#paper3 {
+    position: absolute;
+    left: 275px;
+    bottom: 280px;
+    height: 8px;
+    width: 30px;
+    transform: skew(-84deg,22Deg);
+}
+
+#grand_secret {
+    position: absolute;
+    left: 900px;
+    top: 442px;
+    width: 300px;
+    height: 30px;
+}
+
+#torn_paper {
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    height: 60px;
+    width: 60px;
+}
+
+/*classe permettant le surlignage des elements cliquables*/
+.hint:hover {
+    background-color: #d9b6829d;
+    cursor: pointer;
+}
+
+/*Fenêtre modale*/
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #d9b6829d;
+}
+
+#modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    height: auto;
+}
+
+#myImg {
+    width: 100%;
+    height: 100%;
+}
+  
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,129 @@
+/*element principal en relatif pour permettre aux elements absolus d'etre positionnes*/
+body {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #d9b682;
+    min-width: 1860px;
+    max-width: 1860px;
+    min-height: 926px;
+    max-height: 926px;
+    color: white;
+    font-weight: 600;
+}
+
+/*on utilise un element image pour le fond, sinon il serait dependant de la taille d'ecran*/
+#background, #cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 1860px;
+    height: 926px;
+    margin: 0;
+    padding: 0;
+}
+
+#cover {
+    z-index: 500;
+    background: black;
+    height: 926px;
+}
+
+#switch {
+    position: absolute;
+    width: 100px;
+    height: 100px;        
+    top: 420px;    
+    left: 20px;    
+    z-index: 1000;
+}
+
+#feuille {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    right: 100px;
+    bottom: 50px;
+    transform: skew(-67deg, 19deg);
+}
+
+#painting {
+    position: absolute;
+    top: 135px;    
+    left: 370px;    
+    width: 130px;    
+    height: 150px;    
+    transform: skew(3deg,8deg);
+}
+
+#parchemin {
+    position: absolute;
+    bottom: 160px;    
+    left: 200px;    
+    height: 30px;
+    width: 50px;    
+    transform: skew(69deg,-19deg);
+}
+
+#trappe {
+    position: absolute;
+    bottom: 370px;    
+    left: 560px;    
+    height: 120px;    
+    width: 170px;    
+    transform: skew(3deg,-6deg);
+}
+
+/*classe permettant le surlignage des elements cliquables*/
+.hint:hover {
+    background-color: #d9b6829d;
+    cursor: pointer;
+}
+
+/*Fenêtre modale*/
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #d9b6829d;
+}
+
+#modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    height: auto;
+}
+
+#myImg {
+    width: 100%;
+    height: 100%;
+}
+  
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
