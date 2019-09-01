@@ -77,6 +77,15 @@ body {
     transform: skew(3deg,-6deg);
 }
 
+#papier {
+    position: absolute;
+    position: absolute;
+    bottom: 370px;
+    right: 900px;
+    width: 20px;
+    height: 30px;
+}
+
 /*classe permettant le surlignage des elements cliquables*/
 .hint:hover {
     background-color: #d9b6829d;
