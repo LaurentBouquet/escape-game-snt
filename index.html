@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <head>
     <title>Escape Game SNT</title>
-    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+    <link href="styles/sortie.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Sans" />
     <link rel="icon" href="assets/favicon.ico" />
     <meta charset="UTF-8" />
 </head>
 <body>
-    <!--Image de fond-->
-    <img src="assets/old_classroom.JPG" id="background" />
-    <!--elements-->
-    <div id="dns_explain" class="hint"></div>
-    <div id="secret_door" class="hint">Une porte cachée dans le placard !<br/><br/>Pièce suivante</div>
-    <div id="coffre" class="hint"></div>
-    <div id="map" class="hint"></div>
-    <a href="assets/liste_domaines_ip.ods"><div id="paper1" class="hint"></div></a>
-    <div id="picture1" class="hint"></div>
-    <div id="picture2" class="hint"></div>
-    <div id="paper2" class="hint"></div>
-    <div id="grand_secret" style="display: none">Le code est à l'adresse http://ilovesnt.fr</div>
-    <div id="desk" class="hint"></div>
-    <div id="paper3" class="hint"></div>
-    <div id="torn_paper" class="hint"></div>
-    <span id="attribution">Image de fond par <a href="//commons.wikimedia.org/wiki/User:Babsy" title="User:Babsy">Babsy</a> — <span class="int-own-work" lang="fr">Travail personnel</span>, <a href="https://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=7285028">Lien</a></span>
-    <!--Fenetre modale-->
-    <div id="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div id="modal-content">
-        </div>
+    <div class="center">
+        <h1>Escape Game SNT</h1>
+        <h2>Retour vers le passé</h2>
+        <p>Suite à une expérience plus ou moins réussie en salle de physique, plusieurs salles du lycée ont été renvoyées dans le temps !</p>
+        <p>Heureusement pour toi, d'autres manipulations ont permis à certains professeurs de placer une machine temporelle dans une des salles. Cependant, pour éviter un voyage dans le temps imprévu par n'importe qui, la machine a été cachée ! </p>
+        <p>Des indices ont été laissés pour permettre de trouver l'emplacement de la machine. Seuls des voyageurs du futur (comme toi ! ) peuvent les comprendre et résoudre le mystère.</p>
+        <p>A toi de jouer ! </p>
+        <a href="salle1.html">Commencer ! </a>
     </div>
-    <script src="js/index.js"></script>
+    <footer>
+        <p>Jeu sous licence GNU GPL 3.0, sources disponibles <a href="">ici</a></p>
+        <p>Développé par Nathanaël Gimenez</p>
+    </footer>
 </body>
