@@ -1,6 +1,6 @@
 //Fonction decrivant ce qui doit se passer lors d'un clic sur le bureau
 function desk_click() {
-    let value = prompt("Vous trouvez un placard caché.\nIl est fermé avec un code.\nUne gravure indique :\n'Entrez la date de création du Web'");
+    let value = prompt("Vous trouvez un placard caché.\nIl est fermé avec un code.\nUne gravure indique :\n'Entrez l'année de création du Web'");
 
     if (value == "1989") {
         alert("Le placard s'ouvre ... mais il est malheureusement vide !")
