@@ -3,7 +3,7 @@ function desk_click() {
     let value = prompt("Vous trouvez un placard caché.\nIl est fermé avec un code.\nUne gravure indique :\n'Entrez la date de création du Web'");
 
     if (value == "1989") {
-        alert("Le placard s'ouvre ... malheureusement, il est vide");
+        openImage("assets/placard.jpg");
     } else {
         if (value != undefined) {
             alert("Faux ! Essaie encore");
