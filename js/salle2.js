@@ -4,7 +4,7 @@ function switch_click() {
 }
 document.getElementById("switch").onclick = switch_click;
 
-//clic sur la feuille de papier
+//clic sur la feuille de papier 1
 function paper_click() {
     openImage("assets/feuille.png");
 }
@@ -15,6 +15,18 @@ function parchemin_click() {
     openImage("assets/parchemin.jpg");
 }
 document.getElementById("parchemin").onclick = parchemin_click;
+
+//clic sur la feuille de papier 2
+function papier_click() {
+    openImage("assets/coordonnees_gps.jpg");
+}
+document.getElementById("papier").onclick = papier_click;
+
+//clic sur le tableau
+function painting_click() {
+    openImage("assets/renard_exif.jpg");
+}
+document.getElementById("painting").onclick = painting_click;
 
 //clic sur le coffre
 function trappe_click() {
