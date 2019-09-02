@@ -12,6 +12,11 @@ Je vous conseille d'obfusquer et de minifier les fichiers JS présentés, pour �
 
 Il suffit de changer l'attribut 'src' des balises '<\script>' des pages html et de mettre les versions obfusquées ('*_obs') des fichiers JS. Ce n'est pas la version par défaut, étant une copie de travail et non de production.
 
+# Notice pour les profs
+
+Disponible [ici] (https://gitlab.com/Nat-Faeeria/escape-game-snt/blob/master/notice.pdf)
+Attention ! La notice est DANS les sources du jeu, il faudra penser à l'enlever quand vous le déployez !
+
 # Version live
 
 Disponible [ici](http://escape-game-snt.ga)
