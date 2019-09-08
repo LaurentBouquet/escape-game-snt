@@ -30,7 +30,7 @@ function secret_door_click() {
     let value = prompt("Entrez le code correct");
 
     if (value == "ARDUINO") {
-        window.location.href="salle2.html";
+        window.location.href="room.html";
     } else {
         if (value != undefined) {
             alert("La porte résiste ! Ce n'est pas le bon code !");
