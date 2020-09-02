@@ -8,33 +8,34 @@ body {
     font-weight: 600;
     font-family: 'Josefin Sans';
     font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
 }
 
 body::before {
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
+    content: "";
     width: 100%;
-    height: 100%;
+    height: 120%;
     background-image: url("../assets/background_sortie.jpg");
     filter: blur(3px);
 }
 
 .center {
-    position: relative;
     margin-left:25%;
     margin-top: 10%;
     width: 50%;
     height: 80%;
     text-align: justify;
+    flex-grow: 2;
     z-index: 1000;
 }
 
-.center h1, .center h2  {
+h1, h2  {
     text-align: center;
 }
-
 
 .tryagain {
     margin-top: 5%;
@@ -45,15 +46,16 @@ body::before {
     font-size: 1.3em;
     color: rgb(14, 227, 14);
     text-align: center;
-    margin-left: 43%;
+    margin-left: 40%;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
     width: 50%;
-    color: rgb(73, 73, 73);
+    color: rgb(135,135,135);
     text-align: center;
-    font-size: 0.5em;
+    font-size: 0.7em;
+    z-index: 1000;
 }
+
