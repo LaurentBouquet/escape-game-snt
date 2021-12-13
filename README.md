@@ -1,5 +1,8 @@
 # Escape Game SNT
 
+> Merci à Nat-Faeeria (https://gitlab.com/Nat-Faeeria/escape-game-snt) d'avoir initié ce projet.
+  Je m'en suis inspiré et l'ai modifié pour l'adapter à mon contexte de classe de SNT, tout en conservant la licence GNU GPL 3.0.
+
 Ce site est un escape game prévu pour 45 minutes pour une introduction à la nouvelle matière SNT en Seconde.
 
 Je n'ai pas encore testé ce programme avec mes classes, la rentrée venant juste de commencer. 
