@@ -20,7 +20,7 @@ function torn_paper_click() {
 document.getElementById("torn_paper").onclick = torn_paper_click;
 
 //clic sur le tableau
-function dns_explain_click(){
+function dns_explain_click() {
     openImage("assets/dns_explain.png")
 }
 document.getElementById("dns_explain").onclick = dns_explain_click;
@@ -30,7 +30,7 @@ function secret_door_click() {
     let value = prompt("Entrez le code correct");
 
     if (value == "ARDUINO") {
-        window.location.href="room.html";
+        window.location.href = "room.html";
     } else {
         if (value != undefined) {
             alert("La porte résiste ! Ce n'est pas le bon code !");
@@ -43,7 +43,7 @@ document.getElementById("secret_door").onclick = secret_door_click;
 function coffre_click() {
     let value = prompt("Entrez la bonne adresse IP\npour ouvrir le coffre");
 
-    if (value == "192.168.88.5") {
+    if (value == "192.168.1.7") {
         openImage("assets/coffre.png");
     } else {
         if (value != undefined) {
@@ -90,11 +90,12 @@ function openModal() {
 //place une image dans la fenetre modale
 function openImage(link) {
     let img = document.createElement("img");
-    img.setAttribute("id","myImg");
-    img.setAttribute("src",link);
+    img.setAttribute("id", "myImg");
+    img.setAttribute("src", link);
     document.getElementById("modal-content").appendChild(img);
     openModal();
 }
+
 function closeModal() {
     let img = document.getElementById("myImg");
     document.getElementById("modal-content").removeChild(img);
